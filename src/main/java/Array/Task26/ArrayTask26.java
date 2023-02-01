@@ -4,6 +4,7 @@ import lombok.NonNull;
 
 public class ArrayTask26 {
     public static int[] moveAllZerosMemVersion(@NonNull final int[] arr) {
+        if (arr.length == 1) return arr;
         int[] resultArr = new int[arr.length];
         for (int i = 0, j = 0; j < arr.length;) {
             if (i < arr.length) {
