@@ -18,6 +18,8 @@ class ArrayTask56Test {
         assertThrows(NullPointerException.class, () -> ArrayTask56.sortBinaries(null));
     }
 
+
+
     @Test
     void illegalValuesTest() {
         assertThrows(IllegalArgumentException.class, () -> ArrayTask56.sortBinaries(new int[] {1, 0, 1, 1, 1, 0, 0, 0, 2}));
