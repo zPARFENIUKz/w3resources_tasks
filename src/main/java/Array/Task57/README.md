@@ -2,6 +2,8 @@
 
 Write a Java program to check if a sub-array is formed by consecutive integers from a given array of integers.
 
+Task Link: https://www.w3resource.com/java-exercises/array/java-array-exercise-57.php
+
 Example:
  
 Input :
