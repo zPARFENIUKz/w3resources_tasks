@@ -19,6 +19,7 @@ public class ArrayTask59 {
                 max = arr[i];
             }
         }
+
         return new AbstractMap.SimpleEntry<>(secondMax, max);
     }
 }
